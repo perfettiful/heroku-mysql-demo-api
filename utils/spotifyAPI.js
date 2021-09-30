@@ -75,7 +75,6 @@ getSpotifyTracks = async (getToken, isrcCode) => {
 
 if (typeof module !== "undefined" && !module.parent) {
 
-  getSpotifyTracks(getSpotifyToken, "USVT10300001");
   getSpotifyTracks(getSpotifyToken, "USEE10001992");
   getSpotifyTracks(getSpotifyToken, "GBAYE0601498");
   getSpotifyTracks(getSpotifyToken, "USWB11403680");
