@@ -61,7 +61,7 @@ getSpotifyTracks = async (getToken, isrcCode) => {
       albumCoverUrl: tracksResponse.data.tracks.items[0].album.images[0].url,
     };
     console.log("\n \n======================== \n")
-    console.log("+++> Insert into DB: \n", tracksData);
+    console.log("+++> Ready to Insert into DB: \n", tracksData);
 
 
     return tracksData;
@@ -73,13 +73,20 @@ getSpotifyTracks = async (getToken, isrcCode) => {
 }; // end getSpotifyTracks fct def
 
 
- //getSpotifyTracks(getSpotifyToken, "GBAYE6700149");
-  //getSpotifyTracks(getSpotifyToken, "USQX91300108");
-//  getSpotifyTracks(getSpotifyToken, "USVT10300001");
-//  getSpotifyTracks(getSpotifyToken, "USEE10001992");
-//  getSpotifyTracks(getSpotifyToken, "GBAYE0601498");
-//  getSpotifyTracks(getSpotifyToken, "USWB11403680");
-//  getSpotifyTracks(getSpotifyToken, "GBAYE0601477");
+if (typeof module !== "undefined" && !module.parent) {
 
+  getSpotifyTracks(getSpotifyToken, "USVT10300001");
+  getSpotifyTracks(getSpotifyToken, "USEE10001992");
+  getSpotifyTracks(getSpotifyToken, "GBAYE0601498");
+  getSpotifyTracks(getSpotifyToken, "USWB11403680");
+  getSpotifyTracks(getSpotifyToken, "GBAYE0601477");
+
+} else {
+
+  console.log("+++ Imported into :",
+  module.parent.id.split("\\")[module.parent.id.split("\\").length - 1]
+);
+
+}
 
 module.exports = { getSpotifyToken, getSpotifyTracks };

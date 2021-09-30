@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS spotfiy_db;
-CREATE DATABASE spotfiy_db;
+DROP DATABASE IF EXISTS spotify_db;
+CREATE DATABASE spotify_db;

@@ -55,19 +55,8 @@ Start server in developer mode
 ```bash
 npm run start:dev
 ```
-Read API documentation
-<a href="https://heroku-mysql-demo-api.herokuapp.com//docs" target="blank"><img align="center" src="https://raw.githubusercontent.com/perfettiful/heroku-mysql-demo-api/main/assets/swagger_docs.png" alt="perfettiful"  /></a>
-
 <hr></hr>
-<h2 id="testing">🔬  Testing </h2>
 
-```bash
-npm run test
-```
-Load API test routes profile into Postman 
-<a href="https://github.com/perfettiful/heroku-mysql-demo-api/blob/main/Spotify_API_Routes.postman_collection.json" target="blank"><img align="center" src="https://raw.githubusercontent.com/perfettiful/heroku-mysql-demo-api/main/assets/postman.png" alt="perfettiful"  /></a>
-
-<hr></hr>
 <h2 id="deployment" >🚀  Deployment </h2>
 <div align="center">
 
