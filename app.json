@@ -1,5 +1,5 @@
 {
-    "name":"🎹 UMG Spotify Track REST API",
+    "name":"🎹 Spotify Track REST API",
     "description": "Backend REST API using Node, Express, Sequelize and MySql with Spotify API",
     "repository": "https://github.com/perfettiful/heroku-mysql-demo-api.git",
     "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
