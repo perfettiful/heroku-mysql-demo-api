@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS spotfiy_db;
+CREATE DATABASE spotfiy_db;
